@@ -1,11 +1,11 @@
 var solution = function(number) {
   var numberToFactor = number;
-  var currentDivisor = 5;
+  var currentDivisor = 2;
   var largestDivisor = 0;
 
   while (numberToFactor != 1) {
     if (numberToFactor % currentDivisor === 0) {
-      numberToFactor = numberToFactor / currentDivisor;
+      numberToFactor /= currentDivisor;
       largestDivisor = currentDivisor;
       currentDivisor = 2;
     } else {

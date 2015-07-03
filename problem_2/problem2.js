@@ -5,8 +5,8 @@ var solution = function() {
 
   // Populate the Fibonacci array
   while (fibSeq[fibSeq.length - 1] < LIMIT) {
-    new_term = fibSeq[fibSeq.length - 2] + fibSeq[fibSeq.length - 1];
-    fibSeq.push(new_term);
+    newTerm = fibSeq[fibSeq.length - 2] + fibSeq[fibSeq.length - 1];
+    fibSeq.push(newTerm);
   }
   
   // Get the sum of all the even numbers in the sequence
